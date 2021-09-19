@@ -31,7 +31,6 @@ kiwisolver
 MarkupSafe 
 matplotlib 
 matplotlib-inline 
-mkl-service==2.4.0
 murmurhash 
 nest-asyncio 
 nltk 
