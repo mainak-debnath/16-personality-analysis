@@ -1,0 +1,169 @@
+
+/*
+.container{
+    padding: 30px;
+	position: relative;
+	background-size: 500% 500%;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-heading{
+    margin: 0;
+}
+
+
+
+.description p{
+	color: #ffffff;
+    font-family: normal;
+    font-size: 20px;
+    margin: -5px 0 0;
+}
+*/
+/* Text Area 
+.ml-container{
+    margin: 30px 0;
+	flex: 1 0 auto;
+}
+
+.form-input {
+	text-align: center;
+	width: 350px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+*/
+/* footer 
+.footer{
+    background-color: #97add1;
+	flex-shrink: 0;
+	position: sticky;
+	padding: 20px;
+	background-size: 500% 500%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+
+}
+
+.footer-description{
+	color: #101621;
+	margin: 0;
+	font-size:12px;
+}
+*/
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	font-family: Arial, Helvetica,sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background: url('/static/img/overlay.png'),url('/static/img/hexagon_abstract_background_illustration_vector-wallpaper-1920x1080.jpg');
+	background-position:center;
+	background-size:cover;
+}
+
+/* Website Title */
+.container{
+    padding: 30px;
+	position: relative;
+    background-color: #ac86cf;
+	background-size: 500% 500%;
+	background: rgba(255,255,255,0.1);
+}
+
+.container-heading{
+    font-size: 2em;
+    font-weight: 500;
+    color: #aaa;
+    letter-spacing: 1px;
+}
+/*
+.heading_font{
+    color: #ffffff;
+	font-family: 'Roboto', normal;
+	font-size: 35px;
+	font-weight: normal;
+}
+*/
+.description p{
+	font-size: 2em;
+    font-weight: 500;
+    color: #aaa;
+    letter-spacing: 2px;
+}
+
+/* Text Area */
+.ml-container{
+    margin: 30px 0;
+	flex: 1 0 auto;
+}
+.message-box{
+	border-color: #719ECE;
+	outline: none;
+}
+
+.form-input {
+	text-align: center;
+	width: 350px;
+	height: 55px;
+	margin-bottom: 5px;
+}
+
+/* Predict Button */
+.btn{
+	color: #fff;
+    background: #e91d43;
+    padding:10px 20px; 
+    font-size: 2em;
+    font-weight: 600;
+	margin-top: 80px;
+}
+
+.btn:hover{
+    color: #b36f6f;
+    border: 2px solid #542121;
+}
+
+/* Contact */
+.contact-icon{
+	color: #ffffff;
+	padding: 7px;
+}
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
+/* Footer */
+.footer{
+	flex-shrink: 0;
+	position: relative;
+	padding: 20px;
+	background-size: 500% 500%;
+    background-color: #97add1;
+	background: rgba(255,255,255,0.1);
+}
+
+.footer-description{
+	color: #101621;
+	margin: 0;
+	font-size: 12px;
+}
+
+::placeholder{
+	text-align: center;
+}
