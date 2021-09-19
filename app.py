@@ -1,5 +1,5 @@
 from nltk.stem.porter import PorterStemmer
-from flask import Flask, render_template, url_for, request
+from flask import Flask, render_template, request
 import pickle
 import nltk
 from nltk.corpus import stopwords
@@ -76,8 +76,10 @@ def predict():
             pType += 'J'
         else:
             pType += 'P'
-
-        return render_template('base.html', prediction_text=string + str(pType))
+        if pType == '':
+            return render_template('base.html', prediction_text='Please enter some text!!!')
+        else:
+            return render_template('base.html', prediction_text=string + str(pType))
 
 
 if __name__ == "__main__":
