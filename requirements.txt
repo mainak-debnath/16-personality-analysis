@@ -80,5 +80,5 @@ urllib3
 vaderSentiment 
 wasabi 
 wcwidth 
-Werkzeug==1.0.1
+Werkzeug==2.2.3
 win-inet-pton 
