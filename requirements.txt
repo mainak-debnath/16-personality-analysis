@@ -16,7 +16,7 @@ dataclasses
 debugpy 
 decorator 
 entrypoints==0.3
-Flask==1.1.2
+Flask==2.2.5
 idna 
 ipykernel 
 ipython 
