@@ -3,7 +3,7 @@ blis
 Bottleneck 
 brotlipy==0.7.0
 catalogue 
-certifi==2021.5.30
+certifi==2023.7.22
 cffi 
 chardet 
 charset-normalizer 
